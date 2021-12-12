@@ -1,0 +1,101 @@
+{
+	"name": "ADDB_appleAppData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "addb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "App_Id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "App_Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AppStore_Url",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Primary_Genre",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Content_Rating",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Size_Bytes",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Required_IOS_Version",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Released",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Updated",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Version",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Price",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Currency",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Free",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DeveloperId",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Developer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Developer_Url",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Developer_Website",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Average_User_Rating",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Reviews",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Current_Version_Score",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Current_Version_Reviews",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "appleAppData2"
+		}
+	}
+}
